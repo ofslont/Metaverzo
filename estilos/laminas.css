@@ -1,0 +1,92 @@
+
+body{
+    background-image: url(../IMG/estrellas.gif);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.caja-de-lamina {
+
+    height: 100%;
+   display: flex;
+   padding: 0px 210px 5px 210px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: url("../IMG/nota1.png"), cell;
+}
+
+.titulo {
+    font-size: 26px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+/*------ Girar Imagen -------*/
+
+
+.caja {
+
+    display: flex;
+    padding: 1px 1px 1px 1px;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+.cristal {
+    margin: 5px;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+
+}
+
+.tarjeta {
+
+    width: 50px;
+    height: 70px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .2s ease;
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.9);
+    -mox-box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0);
+
+}
+
+.adelante,
+.atras {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+
+.adelante {
+    width: 100%;
+}
+
+.atras {
+    transform: rotateY(180deg);
+}
+
+.caja:hover .tarjeta {
+    transform: rotateY(180deg);
+    
+    
+
+}
+
+.card1,
+.card2 {
+    width: 100%;
+    height: 100%;
+}
