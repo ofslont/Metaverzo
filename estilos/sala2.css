@@ -1,0 +1,50 @@
+.ObrasS2{
+    width: 102vw;
+    height:68vw;
+    background-image: url(../IMG/Marmol-gris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-right: 0;
+   
+    
+}
+
+
+.WEB{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10vw;
+    
+}
+.web1,.web2,.web3,.web4,.web5,.web6,.web7,.web8,.web9{
+    background-color: var(--color-marco);
+    width: 25vw;
+    height: 15vw;
+    margin: 1.1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.web1 img,.web5 img,.web7 img,.web8 img,.web9 img{
+    width:24vw;
+    height: 14vw;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    top: 0.5vw;
+}
+
+.web2 img, .web3 img, .web4 img,.web6 img{
+    width:21vw;
+    height: 14vw;
+    display: flex;
+    position: relative;
+    top: 0.5vw;
+
+}
+.web1:hover,.web2:hover, .web3:hover,.web4:hover,.web5:hover,.web6:hover,.web7:hover,.web8:hover,.web9:hover{
+    background: linear-gradient(90deg, rgba(250,149,7,1) 0%, rgba(254,210,47,1) 22%, rgba(252,220,0,1) 46%, rgba(249,181,53,1) 53%, rgba(250,149,7,1) 91%);
+    transform: scale(1.1);
+}
