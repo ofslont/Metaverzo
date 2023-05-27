@@ -227,6 +227,6 @@ l39.addEventListener('mouseenter',()=>{
     l52.addEventListener('mouseenter',()=>{
         cuerda1.play();
     });
-    
+
     
 

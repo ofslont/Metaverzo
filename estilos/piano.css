@@ -1,0 +1,143 @@
+.piano{
+    
+    flex-direction: row;
+    align-items: center;
+    background-image: url(../IMG/tex-madera.png);
+    width: 102vw;
+    height: auto;
+
+}
+.P-contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20vw 0 20vw;
+}
+.tecla{
+    
+    width: 9vw;
+    height: 40vw;
+    margin: 2vw 0 2vw 0;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease
+}
+
+.tecla:hover, .tecla.pulsado {
+    transform: scale(0.8);
+  }
+
+.tecla1{
+    background-image: url(../IMG/tecla1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 2vw;
+    width: 99%;
+    height: 95%;
+    flex-direction: column;
+}
+
+.tecla2{
+    background-image: url(../IMG/tecla2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 95%;
+    position: relative;
+    left: 0vw;
+}
+
+.tecla3{
+    background-image: url(../IMG/tecla3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 92%;
+    height: 95%;
+    position: relative;
+    left: -0.1vw;
+}
+
+.tecla4{
+    background-image: url(../IMG/tecla4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90.5%;
+    height: 95%;
+    position: relative;
+    left: -1vw;
+}
+
+.tecla5{
+    background-image: url(../IMG/tecla5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 92%;
+    height: 95%;
+    position: relative;
+    left: -2vw;
+}
+
+.tecla6{
+    background-image: url(../IMG/tecla6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 96.5%;
+    height: 95%;
+    position: relative;
+    left: -3vw;
+}
+
+.tecla7{
+    background-image: url(../IMG/tecla7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 98%;
+    height: 95%;
+    position: relative;
+    left: -3.4vw;
+}
+.letra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.letra1,.letra2,.letra3,.letra4,.letra5,.letra6,.letra7{
+    margin-top: 0.2vw;
+    position: relative;
+    width:10%;
+    
+}
+.letra1{
+    left: 5vw;
+}
+.letra2{
+    left: 4vw;
+}
+.letra3{
+    left: 4vw;
+}
+.letra4{
+    left: 2.5vw;
+}
+.letra5{
+    left: 2vw;
+}
+
+.letra6{
+    left: 1vw;
+}
+
+.letra7{
+    left: 1vw;
+}
+
+
+  .P-letra {
+    font-size: 1vw;
+    color: var(--input-bg);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
+  }

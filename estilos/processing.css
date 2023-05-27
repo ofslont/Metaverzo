@@ -1,0 +1,97 @@
+.Codigos{
+    background-image: url(../IMG/Fon-proce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 102vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.COD1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.2);
+    width: 90vw;
+    height: 36vw;
+    margin: 3vw;
+}
+
+#circulosProg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #circulosProg canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .barras {
+    position: relative;
+    flex-direction: column-reverse;
+    display: flex;
+    top: 3vw;
+    width: 85vw;
+    height: 32vw;
+    left: 3vw; 
+    overflow: hidden;
+  }
+ 
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #defaultCanvas0{
+    width: 0;
+    height: 0;
+
+  }
+  #estrellasProg {
+    position: relative;
+    display: flex;
+    left: 2vw;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  #coheteProg{
+    display: flex;
+    position: relative;
+    left: 0vw;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+  }
+  #camarapixProg{
+     display: flex;
+    position: relative;
+    left: 0vw;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+  }
+  #SonidoProg {
+    width: 100%;
+    height: 100%;
+  }
+
+  #juego1Prog, #juego2Prog {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    }
+
+    .instruccion{
+      font-size: 2vw;
+      color: red;
+      font-weight: bold;
+
+    }
